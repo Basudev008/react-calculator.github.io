@@ -1,13 +1,56 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* basic css to center the div and beautify*/
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  border: 1px solid black;
+  height: 4rem;
+  width: 16rem;
+  background-color: grey;
+}
+
+.result p {
+  margin: 0;
+  padding: 5px;
+  color: aliceblue;
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+button {
+  width: 4rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+.zero {
+  width: 8rem;
+  height: 3rem;
+}
+
+.input-row button:nth-child(4) {
+  background-color: orange;
+}
+
+.input-row:nth-child(5) button:nth-child(3) {
+  background-color: orange;
 }
