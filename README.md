@@ -1,3 +1,8 @@
+# React Calculator app - 
+ a calculator is created with help of react.
+ 
+ Hosted URL: https://basudev008.github.io/react-calculator.github.io/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
